@@ -1,0 +1,42 @@
+Lab 7: Statisitcal Analysis of Gene Expression Data in R
+--------------------------------------------------------
+Nilesh Domah		domah001		5216096
+
+
+
+Part 1: Understanding the Breast Cancer Study
+---------------------------------------------
+a) The first study was on epigenetic portraits of human breast cancers. The purpose of this study was to 
+   understand the diversity of the heterogenous group of breast cancer disorders. This was done by using
+   the Infinium Methylation Platform to profile at single-CpG resolution the methylomes of 119 breast tumors.
+   The second study was on deep sequence analysis of the relationship between gene expression, CpG island 
+   methylation, and gene copy number in breast cancer cells. This was done by using deep sequence technology 
+   to profile the transcriptome, gene copy number, and CpG island methylation status simultaneously in eight
+   commonly used breast cell lines to develop a model for how these genomic features are integrated in estrogen
+   receptor positive and negative breast cancer. 
+
+b) The first study had 90 gene expression samples. The second study had 24 gene expression samples. 
+
+c) In the first study, they used 92 gene expression profiling in breast cancer patients. Methylation was linked
+   to gene expression. In the second study, sequences were mapped to the human genome to obtain digitized gene 
+   expression data, DNA copy number in reference to the non-tumor cell line, and methylation status of 21,570 CpG
+   islands to identify differentially expressed genes that were correlated with methylation or copy number changes.      
+
+
+
+Part 3: Statistical Analysis of Microarray Gene Expression Data
+----------------------------------------------------------------
+d)	The p-value is the probability of obtaining results at leas as exreme as teh oberved reslt of a statistical
+	  hypothesis test. From the bell curved t-stat graph on the PDF, we can see that the area on both sides of the
+	  bell comprises of the area of the p-value. In R, when we calculate pval = pt(-abs(tstat) ,N-2), we are taking
+  	the absolute value, which only covers one side. This is great for a one-sided test. If we want to compute the 
+  	p-value for a two-sided test, we just have to multiply by 2: pval = 2 * pt(-abs(tstat) ,N-2)
+
+e-ii -> iv) For some reason I keep getting 17,570
+
+e-v)  RAX2 (Retina And Anterior Neural Fold Homeobox 2) is a Protein Coding gene. Diseases associated with RAX2 include Cone-Rod             Dystrophy 11 and Macular Degeneration, Age-Related, 6. Gene Ontology (GO) annotations related to this gene include sequence            -specific DNA binding. An important paralog of this gene is RAX.
+
+
+
+
+
