@@ -1,3 +1,3 @@
 # Statistical-Analysis-of-Gene-Expression-Data
 This lab will focus on statistical analysis of gene expression data using both microarray and RNA-seq datasets. Specifically, we will investigate genes whose expression is different between estrogen receptor (ER) positive and ER-negative breast cancer tumors. The ER status reflects whether a tumor will be responsive to hormone therapies and is often used as an important diagnostic in determining the course of treatment. In this lab, we will examine gene expression differences between breast cancer tumor samples using both microarray and RNA-Seq expression data.
-*data files too large to upload, available upon request*
+*Data files too large to upload, available upon request*
